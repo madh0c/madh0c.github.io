@@ -13,10 +13,14 @@ const NavBar = () => {
     },
     {
       id: 2,
-      link: 'Portfolio'
+      link: 'Projects'
     },
     {
       id: 3,
+      link: 'Resume'
+    },
+    {
+      id: 4,
       link: 'Contact'
     }
   ];
@@ -29,7 +33,7 @@ const NavBar = () => {
 
       <ul className='hidden md:flex pr-4'>
         {links.map(({id, link}) => (
-            <li key={id} className='px-16 cursor-pointer text-xl font-extrabold hover:scale-110 hover:text-cyan-300 duration-100'>{link}</li>
+            <li key={id} className='px-12 cursor-pointer text-xl font-extrabold hover:scale-110 hover:text-cyan-300 duration-100'>{link}</li>
         ))}
       </ul>
       
