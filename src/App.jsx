@@ -1,10 +1,15 @@
-
+import Home from "./components/Home"
+import NavBar from "./components/NavBar"
+import SocialLinks from "./components/SocialLinks";
 
 
 function App() {
   return (
     <div>
-      <h1>madhoc</h1>
+      <NavBar />
+      <Home />
+
+      <SocialLinks />
     </div>
   );
 }
