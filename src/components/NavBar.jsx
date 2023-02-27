@@ -9,7 +9,7 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: 'About Me'
+      link: 'About'
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const NavBar = () => {
 
       <ul className='hidden md:flex pr-4'>
         {links.map(({id, link}) => (
-            <li key={id} className='px-12 cursor-pointer text-xl font-extrabold hover:scale-110 hover:text-cyan-300 duration-100'>{link}</li>
+            <li key={id} className='px-8 cursor-pointer text-l font-extrabold hover:scale-110 hover:text-cyan-300 duration-150'>{link}</li>
         ))}
       </ul>
       
