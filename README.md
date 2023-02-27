@@ -1,1 +1,1 @@
-[Website](https://madhoc-bytes.github.io/portfolio/)
+[Website](https://madhoc-bytes.github.io/)
