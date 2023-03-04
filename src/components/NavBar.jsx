@@ -27,14 +27,14 @@ const NavBar = () => {
   ];
 
   return (
-    <div className='flex justify-between items-center w-full h-24 px-4 text-white fixed'>
-      <a href={'home'}>
+    <div className='flex justify-between items-center w-full h-24 px-4 z-10 text-white capitalize fixed'>
+      <a href={'../assets/logo.png'}>
         <img src={logo} alt='home button pic' className='w-1/3 md:w-1/4 cursor-pointer pr-20 hover:saturate-200'/>
       </a>
 
       <ul className='hidden md:flex pr-4'>
         {links.map(({id, link}) => (
-            <li key={id} className='px-8 cursor-pointer text-l capitalize font-extrabold hover:scale-110 hover:text-cyan-300 duration-150'>
+            <li key={id} className='px-8 cursor-pointer text-l font-extrabold hover:scale-110 hover:text-cyan-300 duration-150'>
               <Link to={link} smooth duration={500}>{link}</Link>
             </li>
         ))}
@@ -48,7 +48,7 @@ const NavBar = () => {
       {nav && (
         <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-900 to-cyan-800'>
         {links.map(({id, link}) => (
-            <li key={id} className='px-4 cursor-pointer py-10 font-medium capitalize text-4xl'>
+            <li key={id} className='px-4 cursor-pointer py-10 font-medium text-xl'>
               <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>  
             </li>
         ))}

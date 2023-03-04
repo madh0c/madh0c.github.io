@@ -12,4 +12,20 @@
     }
 }
 
+@layer utilities {    
+    .text-shadow {
+        text-shadow: 2px 2px 4px black;
+    }
+    .text-shadow-md {
+        text-shadow: 4px 4px 8px black;
+    }
+    .text-shadow-lg {
+        text-shadow: 15px 15px 30px black;
+    }
+    .text-shadow-none {
+        text-shadow: none;
+    }
+    
+}
+
 /* @font-face {font-family: "Broadcast Matter"; src: url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.eot"); src: url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.woff") format("woff"), url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b396395b8cf83c87aa9fb4f192820303.svg#Broadcast Matter") format("svg"); } */

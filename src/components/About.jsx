@@ -10,7 +10,7 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-10'>
-          Hey I’m Jeffery and am currently in my penultimate year of B.S. in Computer Science at the University of New South Wales.
+          Hey I'm Jeffery! I am currently completing my Bachelor's of Computer Science at the University of New South Wales.
         </p>
 
         <br />
