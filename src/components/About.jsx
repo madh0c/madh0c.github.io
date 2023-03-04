@@ -10,13 +10,13 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-10'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quis, fugiat labore sequi vel error hic facere nam eius quas mollitia praesentium quod reprehenderit sint exercitationem facilis? Minima aliquid, fuga molestiae illo vero obcaecati quam voluptatibus alias tempore dicta quisquam impedit aperiam molestias facilis dolorum consequatur earum voluptate officia quia.
+          Hey I’m Jeffery and am currently in my penultimate year of B.S. in Computer Science at the University of New South Wales.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non enim dolore vero, alias ullam tempora voluptatum nulla tenetur accusamus voluptatem veniam modi minus temporibus accusantium, possimus ipsum. Nesciunt, eveniet? Quibusdam facilis autem repellendus, delectus temporibus laboriosam ratione corrupti fugit neque eligendi hic obcaecati incidunt saepe earum, quam voluptatibus necessitatibus blanditiis.
+          As a former e-sports player and aspiring software engineer, I am excited to tackle challenging projects that allow me to leverage my ability to learn, adapt, and thrive in a team-oriented environment. I am currently seeking an internship to gain industry experience and eager to apply my technical skills to real-world situations.
         </p>
       </div>
 
