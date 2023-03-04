@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/heroImage.png'
 import { AiFillCaretRight } from 'react-icons/ai'
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (

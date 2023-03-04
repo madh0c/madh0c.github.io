@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaRegSmileBeam } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -6,7 +7,14 @@ const Contact = () => {
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
-          <p className='py-6'>Fill out the form below to get in touch</p>
+
+          
+          <p className='py-6 flex'>
+            Get in touch. Simply fill out this form!             
+            <FaRegSmileBeam className='ml-1' size={18}/>                      
+          </p> 
+                
+          
         </div>
 
         <div className='flex justify-center items-center'>
