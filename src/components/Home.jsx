@@ -14,7 +14,7 @@ const Home = () => {
               Penultimate-Year Comp-Sci Student at UNSW
             </p>
             <div>
-              <button className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-full bg-gradient-to-r from from-cyan-500 to-blue-500'>
+              <button className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-500'>
                 Projects
                 <span className='ml-1 group-hover:rotate-90 duration-150'>
                   <AiFillCaretRight size={18}/>
