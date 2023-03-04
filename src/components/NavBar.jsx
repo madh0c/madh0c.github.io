@@ -28,7 +28,7 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center w-full h-24 px-4 z-10 text-white capitalize fixed'>
-      <a href={'../assets/logo.png'}>
+      <a href={'home'}>
         <img src={logo} alt='home button pic' className='w-1/3 md:w-1/4 cursor-pointer pr-20 hover:saturate-200'/>
       </a>
 
