@@ -10,13 +10,13 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-10'>
-          Hey I'm Jeffery! I am currently completing my Bachelor's of Computer Science at the University of New South Wales.
+          Hey I'm Jeffery! I am currently working as an IT graduate for Aon.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          As a former e-sports player and aspiring software engineer, I am excited to tackle challenging projects that allow me to leverage my ability to learn, adapt, and thrive in a team-oriented environment. I am currently seeking an internship to gain industry experience and eager to apply my technical skills to real-world situations.
+          As a high-school tutor and former e-sports player, I like to tackle challenging projects that allow me to leverage my ability to learn, adapt, and thrive in a team-oriented environment. I am currently bolstering my professional skills in a technical analysis rotation - applying concepts that I've absorbed throughout my academic journey to real-world situations.
         </p>
       </div>
 
