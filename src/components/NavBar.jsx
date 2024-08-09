@@ -27,18 +27,18 @@ const NavBar = () => {
   ];
 
   return (
-    <div className='flex justify-between items-center w-full h-16 px-4 z-10 text-white  fixed bg-gray-700'>
+    <div className='flex justify-between items-center w-full h-16 px-4 z-10 text-white fixed bg-gray-600 bg-opacity-80 border-b border-gray-600 '>
       <a href={'/'}>
-        <img src={logo} alt='home button pic' className='object-scale-down h-10 cursor-pointer pr-2  hover:saturate-200'/>
+        <img src={logo} alt='home button pic' className='object-scale-down h-10 cursor-pointer  hover:saturate-200'/>
       </a>
 
       <h1 className='flex-1 text-xl font-bold'>
         /madhoc-bytes
       </h1>
 
-      <ul className='hidden md:flex pr-16 capitalize'>
+      <ul className='hidden md:flex pr-24 capitalize'>
         {links.map(({id, link}) => (
-            <li key={id} className='px-8 cursor-pointer text-lg font-semibold hover:scale-110 hover:text-cyan-300 duration-150'>
+            <li key={id} className='px-6 cursor-pointer text-base font-semibold hover:scale-110 hover:text-cyan-300 duration-150'>
               <Link to={link} smooth duration={500}>{link}</Link>
             </li>
         ))}
