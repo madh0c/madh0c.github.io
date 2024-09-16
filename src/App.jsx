@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-slate-800">
+    <div className="bg-gray-100 dark:bg-slate-900 dark:text-white">
       <NavBar />
       <Home />
       <About />
